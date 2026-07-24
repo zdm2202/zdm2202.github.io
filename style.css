@@ -1,0 +1,28 @@
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(181, 117, 117);
+}
+
+header {
+    background-color: antiquewhite;
+    height: 80px;
+    margin-top: 0px;
+}
+
+main {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: aquamarine;
+    flex-grow: 2;
+}
+
+.blocks {
+    background-color: cadetblue;
+    margin: 3px;
+    flex-grow: 1;
+}
