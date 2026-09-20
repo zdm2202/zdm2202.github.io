@@ -1439,7 +1439,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #96ed2d;
+    background: #7dff36;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2906,4 +2906,33 @@ header.header {
   .pagination {
     margin-bottom: 10px;
   }
+}
+.post-body h1 {
+  font-size: 1.6em;
+  border-bottom: 2px solid #555;
+  padding-bottom: 6px;
+  margin: 40px 0 20px;
+}
+.post-body h2 {
+  font-size: 1.375em;
+  border-left: 4px solid #4a90d9;
+  padding-left: 10px;
+  margin: 35px 0 15px;
+}
+.post-body h3 {
+  font-size: 1.125em;
+  color: #2f6bb3;
+  font-weight: 600;
+}
+.post-body h4 {
+  font-size: 1em;
+  color: #555;
+}
+.post-body h5 {
+  font-size: 0.9375em;
+  color: #666;
+}
+.post-body h6 {
+  font-size: 0.875em;
+  color: #777;
 }
