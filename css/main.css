@@ -1439,7 +1439,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #8e45ff;
+    background: #ffffe3;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2911,7 +2911,7 @@ header.header {
   font-size: 1.6em;
   border-bottom: 2px solid #555;
   padding-bottom: 6px;
-  margin: 40px 0 20px;
+  margin: 40px 0 0px;
 }
 .post-body h2 {
   font-size: 1.375em;
@@ -2935,4 +2935,8 @@ header.header {
 .post-body h6 {
   font-size: 0.875em;
   color: #777;
+}
+mjx-container[jax="SVG"][display="true"] > svg {
+  max-width: 100%;
+  height: auto;
 }
